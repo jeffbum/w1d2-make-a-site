@@ -51,3 +51,6 @@ button{
     padding: 10px;
     text-align: center;
 }
+.beautiful:hover{
+    transform: scale(2)
+}
