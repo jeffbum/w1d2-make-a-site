@@ -27,31 +27,14 @@ footer{
 }
 body{
     margin: 10px 20px 20px 20px;
-    background-color: black;
+    background-color: grey;
     font-family: 'Cabin', sans-serif;
 
-}
-.purple-text{
-    text-color: purple;
-}
 button{
-    width: 250px;
-    background-color: teal;
-    border: 20px solid red;
-    border-top:5px solid green;
+    width: 200px;
+    background: transparent ;
+    border: 5px solid red;
+    border-radius: 5px solid green;
 }
-
-.ugly, .beautiful, button{
-    width: 250px;
-
-}
-.beautiful{
-    background: transparent;
-    border: 2px solid blue;
-    border-radius: 10px
-    padding: 10px;
-    text-align: center;
-}
-.beautiful:hover{
-    transform: scale(2)
-}
+/*above is for index.html*/
+/*below is for about.html*/
