@@ -29,12 +29,37 @@ body{
     margin: 10px 20px 20px 20px;
     background-color: grey;
     font-family: 'Cabin', sans-serif;
-
-button{
-    width: 200px;
-    background: transparent ;
-    border: 5px solid red;
-    border-radius: 5px solid green;
-}
+    }
 /*above is for index.html*/
 /*below is for about.html*/
+.section1{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Baloo Bhai', sans-serif;
+    background: white
+}
+.ballin{
+    background: transparent;
+    border: 2px solid blue;
+    border-radius: 80%;
+    padding: 10px;
+    text-align: center;
+    transition: all .3s ease;
+}
+.ballin:hover {
+    transform: scale(2.5);
+    border: 2px solid red;
+}
+.mugshot{
+    border: 5px solid red;
+    border-radius: 50%
+}
+table, th, td {
+    border: 1.5px solid red;
+    border-collapse: collapse;
+    padding: 10px;
+}
+div{
+    text-align:center;
+margin:auto;
+}
